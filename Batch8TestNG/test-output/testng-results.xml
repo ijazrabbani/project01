@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-19T11:58:29 EST" name="regression" finished-at="2023-12-19T11:58:51 EST" duration-ms="21938">
+    <groups>
+      <group name="regression">
+        <method signature="Parentclass.test1()[pri:0, instance:ecommerce.Batch8TestNG.Parentclass@4d910fd6]" name="test1" class="ecommerce.Batch8TestNG.Parentclass"/>
+        <method signature="Parentclass.test2()[pri:0, instance:ecommerce.Batch8TestNG.Parentclass@4d910fd6]" name="test2" class="ecommerce.Batch8TestNG.Parentclass"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-12-19T11:58:29 EST" name="fbhome_restart browser chrome" finished-at="2023-12-19T11:58:51 EST" duration-ms="21938">
+      <class name="ecommerce.Batch8TestNG.Parentclass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ecommerce.Batch8TestNG.Parentclass@4d910fd6]" started-at="2023-12-19T11:58:29 EST" name="beforeMethod" finished-at="2023-12-19T11:58:36 EST" duration-ms="7225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:ecommerce.Batch8TestNG.Parentclass@4d910fd6]" started-at="2023-12-19T11:58:36 EST" name="test1" finished-at="2023-12-19T11:58:41 EST" duration-ms="4176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecommerce.Batch8TestNG.Parentclass@4d910fd6]" started-at="2023-12-19T11:58:41 EST" name="afterMethod" finished-at="2023-12-19T11:58:41 EST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ecommerce.Batch8TestNG.Parentclass@4d910fd6]" started-at="2023-12-19T11:58:41 EST" name="beforeMethod" finished-at="2023-12-19T11:58:47 EST" duration-ms="5768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:ecommerce.Batch8TestNG.Parentclass@4d910fd6]" started-at="2023-12-19T11:58:47 EST" name="test2" finished-at="2023-12-19T11:58:51 EST" duration-ms="4034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ecommerce.Batch8TestNG.Parentclass@4d910fd6]" started-at="2023-12-19T11:58:51 EST" name="afterMethod" finished-at="2023-12-19T11:58:51 EST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ecommerce.Batch8TestNG.Parentclass -->
+    </test> <!-- fbhome_restart browser chrome -->
+  </suite> <!-- regression -->
+</testng-results>
